@@ -1,0 +1,15 @@
+<!-- <p><%= @userid %></p> -->
+<!-- <p><%= @password %></p> -->
+
+<p><%= @userid_validations %></p>
+<p><%= @password_validations %></p>
+<!-- <p><%= @validations %></p> -->
+
+<form actions= "/check_password" method= "get">
+  <label for="user_name_id">Enter User ID:</label>
+  <input id="user_name_id" type="text" name="userid" />
+  <br/>
+  <label for="user_password_id">Enter Password:</label>
+  <input id="user_password_id" type ="text" name="password"/>
+  <input type="submit" value="submit"/>
+</form>
